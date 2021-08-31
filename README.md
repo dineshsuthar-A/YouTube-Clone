@@ -1,3 +1,21 @@
+# About Project
+I have created this project using jsx language with CSS.This project is a clone of youtube which is through the youtube Data API V3(https://developers.google.com/youtube/v3/docs)
+
+This application has several components in which it is controlled using 'react-router-dom' .
+
+# About component folder
+It has all the Components of the Application.
+
+Allvideo.js- It is shown on homescreen which has mostpopularvideos(videocard is its subcomponent to show each video).
+
+Search.js - It is shown when user search something (searchitem is its subcomponent)
+
+Css files are with the same name as its js files.
+
+Watch folder contains all the component files which is shown on watch screen.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
