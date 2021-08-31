@@ -1,0 +1,54 @@
+nav{
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    padding-right: 6px;
+    position: sticky;
+    top:0;
+    z-index: 100;
+    background-color: white;
+
+    justify-content: space-between;
+}
+
+.search{
+    display: flex;
+    vertical-align: top;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 25px;
+    width: 40%;
+    flex-direction: row;
+    
+}
+.searchbar{
+    padding-left: 10px;
+    border: none;
+    flex:1;
+    height: 23px;
+}
+.searhButton{
+    border: 0px ;
+    height: 24px;
+    border-left: 1px solid gray;
+}
+.searhButton :hover{
+    color: gray;
+    
+}
+
+.thirddiv{
+    display: flex;
+    align-items: center;
+    
+}
+
+.icons{
+    margin: 10px;
+}
+
+.iconmenu{
+    margin-right: 10px;
+}

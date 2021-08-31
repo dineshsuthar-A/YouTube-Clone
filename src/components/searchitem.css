@@ -1,0 +1,21 @@
+.searchitem{
+    display: flex;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+
+}
+.searchitem > img{
+    height: 180;
+    cursor: pointer;
+    flex: 1;
+}
+.videoinfo{
+    margin-left: 10px;
+    flex:2;
+}
+.channel{
+    display: flex;
+    align-items: center;
+}

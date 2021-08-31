@@ -1,0 +1,42 @@
+.videocard{
+    
+    width: 270px;
+    margin: 10px;
+    
+}
+.thumbnail{
+    width: 250px;
+    height: 150px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    
+}
+
+.video_info{
+    display: flex;
+    margin: 0;
+    vertical-align: top;
+
+}
+.video_detail{
+    top: 0;
+    margin-right: 20px;
+    margin-left: 10px ;
+    font-size: 14px;
+    color: gray;
+    line-height: 1pt;
+}
+.title{
+    margin: 0;
+    
+    line-height: 14pt;
+    height: 30pt;
+    color: black;
+    font-weight: bold;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
